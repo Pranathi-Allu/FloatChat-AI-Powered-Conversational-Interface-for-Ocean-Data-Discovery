@@ -126,7 +126,7 @@ ollama serve
 ### 6. Run the app
 
 ```bash
-streamlit run app.py
+streamlit run sec.py
 ```
 
 ---
