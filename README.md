@@ -139,18 +139,3 @@ streamlit run app.py
 4. Adjust map/chart options in the sidebar to customize the view.
 
 ---
-
-## 📁 Project Structure
-
-```
-argo3/
-├── sec.py                  # Main Streamlit application
-├── floaat_merged.pdf       # ARGO metadata source document
-├── sec.ipynb      # Cached FAISS index (auto-generated on first run)
-├── requirements.txt        # Python dependencies
-├── .env                    # Environment variables (not committed)
-├── .gitignore
-└── README.md
-```
-
----
