@@ -80,7 +80,7 @@ def get_db_engine():
     """Creates and caches a SQLAlchemy engine."""
     try:
         pg_user = os.getenv("POSTGRES_USER", "postgres")
-        pg_pass = os.getenv("POSTGRES_PASSWORD", "mahhenuwu123321@")
+        pg_pass = os.getenv("POSTGRES_PASSWORD")
         pg_db = os.getenv("POSTGRES_DB", "postgres")
         pg_host = os.getenv("POSTGRES_HOST", "localhost")
         pg_port = os.getenv("POSTGRES_PORT", "5432")
